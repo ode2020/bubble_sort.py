@@ -6,7 +6,9 @@ def bubble_sort(numbers):
                numbers[j] = numbers[j+1]
                numbers[j+1] = temp
                print(numbers)
-        
+
+
 numbers = [5, 3, 8, 6, 7, 2]
 bubble_sort(numbers)
 print(numbers)
+print("The code executed successfully")

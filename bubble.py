@@ -5,6 +5,7 @@ def bubble_sort(numbers):
                temp = numbers[j]
                numbers[j] = numbers[j+1]
                numbers[j+1] = temp
+               print(numbers)
         
 numbers = [5, 3, 8, 6, 7, 2]
 bubble_sort(numbers)
